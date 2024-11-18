@@ -1,0 +1,57 @@
+---
+title: "Updates XYZ project"
+toc: true
+number-sections: true
+format: 
+    html:
+        code-fold: true
+---
+
+## -- 11 novembre 2024
+
+I tested the ABC methode using this protocol
+
+it gave me results, here it is shown in figure @fig-exposant
+
+
+```{python}
+#| fig-cap: 'Figure caption for only one figure'
+#| label: fig-exposant
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas
+
+df = pandas.read_csv('data.csv')
+
+def exponant(a):
+    return 2**a
+
+x = np.arange(0, 20, 1)
+y = exponant(x)
+
+plt.figure(1)
+plt.title('graph of things')
+plt.plot(x, y)
+plt.show()
+```
+
+
+```{python}
+#| fig-cap: "Figure caption for another figure"
+#| label: fig-data_pulse_duration
+
+
+plt.figure(2)
+plt.scatter(df['Duration'], df['Pulse'])
+plt.show()
+```
+
+We can se in figure @fig-data_pulse_duration that blabla
+
+you can also pre built your files with Quarto and run them in your main if you prefer it this way! The downside is it wont show you your code. I don't see the point of doing this. 
+
+```{python}
+import get_spectras
+```
+

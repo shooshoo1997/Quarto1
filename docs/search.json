@@ -4,13 +4,34 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\ni can write more here"
+  },
+  {
+    "objectID": "about.html#this-is-a-section-where-i-will-write-things",
+    "href": "about.html#this-is-a-section-where-i-will-write-things",
+    "title": "About",
+    "section": "",
+    "text": "About this site\ni can write more here"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quarto_1",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nThis website is interesting if you want to learn more about quarto!"
+  },
+  {
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "Updates XYZ project",
+    "section": "",
+    "text": "I tested the ABC methode using this protocol\nit gave me results, here it is shown in figure Figure 1\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas\n\ndf = pandas.read_csv('data.csv')\n\ndef exponant(a):\n    return 2**a\n\nx = np.arange(0, 20, 1)\ny = exponant(x)\n\nplt.figure(1)\nplt.title('graph of things')\nplt.plot(x, y)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: Figure caption for only one figure\n\n\n\n\n\n\n\nCode\nplt.figure(2)\nplt.scatter(df['Duration'], df['Pulse'])\nplt.show()\n\n\n\n\n\n\n\n\nFigure 2: Figure caption for another figure\n\n\n\n\n\nWe can se in figure Figure 2 that blabla\nyou can also pre built your files with Quarto and run them in your main if you prefer it this way! The downside is it wont show you your code. I don’t see the point of doing this.\n\n\nCode\nimport get_spectras"
+  },
+  {
+    "objectID": "updates.html#novembre-2024",
+    "href": "updates.html#novembre-2024",
+    "title": "Updates XYZ project",
+    "section": "",
+    "text": "I tested the ABC methode using this protocol\nit gave me results, here it is shown in figure Figure 1\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas\n\ndf = pandas.read_csv('data.csv')\n\ndef exponant(a):\n    return 2**a\n\nx = np.arange(0, 20, 1)\ny = exponant(x)\n\nplt.figure(1)\nplt.title('graph of things')\nplt.plot(x, y)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: Figure caption for only one figure\n\n\n\n\n\n\n\nCode\nplt.figure(2)\nplt.scatter(df['Duration'], df['Pulse'])\nplt.show()\n\n\n\n\n\n\n\n\nFigure 2: Figure caption for another figure\n\n\n\n\n\nWe can se in figure Figure 2 that blabla\nyou can also pre built your files with Quarto and run them in your main if you prefer it this way! The downside is it wont show you your code. I don’t see the point of doing this.\n\n\nCode\nimport get_spectras"
   }
 ]

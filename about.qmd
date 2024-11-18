@@ -1,5 +1,15 @@
 ---
 title: "About"
+toc: true
+number-sections: true
 ---
 
+## This is a section where i will write things
+
+### This is another subsection
+
 About this site
+
+i can write more here
+
+
